@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<meta charset="ISO-8859-1">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<style>
+body{
+
+   
+  background: url(https://cdn.pixabay.com/photo/2014/10/08/09/01/career-479578_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: 1150px 650px;
+}
+
+.style1 {
+ 
+  padding: 100px;
+   background-size: 1150px 650px;
+  background-repeat: no-repeat;
+  color:blue;
+
+
+   
+}
+.container
+{
+color:white;
+}
+
+</style>
+
+</head>
+<body >
+<div>
+ <p style="font-size:3vw ;text-align:left;color:green"><b>This is Placement Management System</b></p>
+  
+</div>
+<div class="container">
+         <h2 ><u>Our Team</u></h2><br>
+      <details>
+      <summary onmouseover="myfuna(this)" onmouseout="myfuna1(this)">Sahana M</summary>
+      <ul>
+     <li> <p>BE Graduate in CSE<P></li>
+     <li> <P>JAVA FULL STACK DEVELOPER</P></li>
+    <li>  <p ><a style="color:red" href="https://www.google.com/gmail/">sahana8818@gmailcom</a><p></li>
+     <li> <p><a style="color:red "href="">GitHub Link</a></li>
+      </ul>
+      </details>
+      
+      <details>
+      <summary onmouseover="myfuna(this)" onmouseout="myfuna1(this)">Alfiya Banu</summary>
+      <ul>
+     <li> <p>BE Graduate in CSE<P></li>
+     <li> <P>JAVA FULL STACK DEVELOPER</P></li>
+    <li>  <p><a  style="color:red" href="https://www.google.com/gmail/">sahana8818@gmailcom</a><p></li>
+     <li> <p ><a style="color:red" href="">GitHub Link</a></li>
+      </ul>
+      </details>
+      
+<details>
+      <summary onmouseover="myfuna(this)" onmouseout="myfuna1(this)">Dhanuja S</summary>
+      <ul>
+     <li> <p>BE Graduate in CSE<P></li>
+     <li> <P>JAVA FULL STACK DEVELOPER</P></li>
+    <li>  <p ><a style="color:red" href="https://www.google.com/gmail/">sahana8818@gmailcom</a><p></li>
+     <li> <p ><a style="color:red" href="">GitHub Link</a></li>
+      </ul>
+      </details>
+      
+       
+		<details>
+      <summary onmouseover="myfuna(this)" onmouseout="myfuna1(this)">Pavithra</summary>
+      <ul>
+     <li> <p>BE Graduate in CSE<P></li>
+     <li> <P>JAVA FULL STACK DEVELOPER</P></li>
+    <li>  <p><a  style="color:red" href="https://www.google.com/gmail/"></a><p></li>
+     <li> <p ><a style="color:red" href="">GitHub Link</a></li>
+      </ul>
+      </details>
+      
+      <details>
+      <summary onmouseover="myfuna(this)" onmouseout="myfuna1(this)">Divya Girnala</summary>
+      <ul>
+     <li> <p>BE Graduate in CSE<P></li>
+     <li> <P>JAVA FULL STACK DEVELOPER</P></li>
+    <li>  <p><a  style="color:red" href="https://www.google.com/gmail/"></a><p></li>
+     <li> <p><a  style="color:red" href="">GitHub Link</a></li>
+      </ul>
+      </details>
+       
+        
+  </div>
+<div class=style1>
+<h3><a  th:href="@{'/loginindex'}"><input type="submit" class="btn btn-info" value="HOME" /></a></h3> 
+</div>
+
+<script>
+function myfuna(x)
+{
+    x.style.textDecoration="underline";
+    x.style.color="red";
+}
+function myfuna1(x)
+{
+    x.style.textDecoration="none";
+    x.style.color="orange";
+}
+</script>
+
+</body>
+</html>
