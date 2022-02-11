@@ -1,0 +1,31 @@
+create database project; 
+use project;
+create table Login(id bigint primary key auto_increment,username varchar(100)
+,password varchar(100));
+
+create table Student_Login(id bigint primary key auto_increment,username varchar(100)
+,password varchar(100));
+
+select * from College;
+
+create table College(id bigint primary key auto_increment,
+collegename varchar(100),collegelocation varchar(100),collegeadmin varchar(100)
+,collegeemail varchar(100));
+
+create table Placement(id bigint primary key auto_increment,name varchar(100),
+college varchar(100),date varchar(100)
+,qualification varchar(100),year varchar(100));
+
+create table Student(id bigint primary key auto_increment
+,studentname varchar(100),course varchar(100),percentage int
+,mailid varchar(100),college varchar(100),roll Long
+,qualification varchar(100),hallticketno int);
+
+
+INSERT INTO Login VALUES(1,"SAHANA","SAHA12");
+
+select * from login;
+select * from Student;
+select * from Placement;
+select * from College;
+select * from student_login;
